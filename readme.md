@@ -2,10 +2,10 @@
 
 - Dates: Tuesday 27th August - Thursday 29th August 
 - Instructor: Kevin Cunningham
-  - Email: kevin@kevincunningham.co.uk
-  - Website: https://kevincunningham.co.uk
+  - [Email](mailto:kevin@kevincunningham.co.uk)
+  - [My website](https://kevincunningham.co.uk)
 - [Repo link](https://github.com/doingandlearning/python-training-aug-2024)
-- [Miro link](https://miro.com/app/board/uXjVKnBaaVU=/)
+- [Miro link](https://miro.com/app/board/uXjVKlpgfp0=/)
 - [Feedback link]()
 
 ## Timings:
