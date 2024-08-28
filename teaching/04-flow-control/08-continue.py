@@ -8,3 +8,10 @@ for i in range(0, 10):
      
 
 print("Done")
+
+if True:
+  # this is what i want to
+  pass
+else:
+  # i'll do something else
+  pass
