@@ -1,23 +1,23 @@
-CELSIUS = "Celsius"
+CELSIUS = "Celsius"  # Magic strings!
 FAHRENHEIT = "Fahrenheit"
 
 class TemperatureReading:
-    def __init__(self, temp, date, location, scale=CELSIUS):
+    """
+    TemperatureReading represents a temperature measurement at a specific location and date,
+    with the option to specify the scale (Celsius or Fahrenheit).
+    """
+    def __init__(self, temp: float, date: str, location:str, scale=CELSIUS):
         self.temp = temp
         self.date = date
         self.location = location
         self.scale = scale
 
-    def __repr__(self):
+    def __repr__(self): # Machine Readable Representation
         return f'TemperatureReading({self.temp}, {self.date}, {self.location}, {self.scale})'
 
-    def __str__(self):
+    def __str__(self): # Human Readable Representation
         return f'TemperatureReading[{self.scale}]({self.temp} on {self.date} at {self.location})'
 
-    """
-    TemperatureReading represents a temperature measurement at a specific location and date,
-    with the option to specify the scale (Celsius or Fahrenheit).
-    """
 
     def convert(self):
         """Convert the temperature to the opposite scale."""
@@ -29,6 +29,7 @@ class TemperatureReading:
             return TemperatureReading(new_temp, self.date, self.location, CELSIUS)
         else:
             raise ValueError("Unknown temperature scale")
+
 
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9 / 5) + 32
@@ -82,6 +83,9 @@ print(readings)
 
 # Print the list of readings using __str__
 print(*readings)
+
+for reading in readings:
+  print(str(reading))
 
 # Display summary statistics with the new class
 print(f'Average temperature: {average(readings)}')
