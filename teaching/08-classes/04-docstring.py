@@ -50,3 +50,5 @@ print(kevin.calculate_pay(8))
 
 del kevin
 print(kevin)
+
+kevin = None
