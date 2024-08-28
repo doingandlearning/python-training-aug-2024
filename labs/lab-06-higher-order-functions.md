@@ -2,9 +2,10 @@
 
 The aim of this lab is to use higher-order functions to apply operations to the collections of temperature data in the application we have been developing.
 
-We will use three higher-order functions: `map` and `filter`.
+We will use two higher-order functions: `map` and `filter`.
 
 This lab is made up of 5 steps:
+
 1. Convert all temperatures to Fahrenheit
 2. Select all temperatures above 14.0
 3. Convert all the temperatures above 14.0 to Fahrenheit
@@ -29,10 +30,10 @@ Note: For this example, you do not need to create a lambda function.
 You can use the conversion functions created in the last lab. If you did not implement these, then the following definitions can be used:
 
 ```python
-def celsius_to_fahrenheit(celsius):   
+def celsius_to_fahrenheit(celsius):
     return (celsius * 9 / 5) + 32
 
-def fahrenheit_to_celsius(fahrenheit):   
+def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5 / 9
 ```
 
