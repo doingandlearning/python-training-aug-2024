@@ -1,0 +1,3 @@
+- [Automate the Boring Stuff](https://automatetheboringstuff.com/)
+- [Real Python](https://realpython.com/)
+- [Python Morsels](https://www.pythonmorsels.com/)

@@ -7,5 +7,6 @@ things_we_have_learned = {
 
 }
 
-with open("store.json", "w") as file:
+with open("../store.json", "w") as file:
   file.write(json.dumps(things_we_have_learned))
+
