@@ -15,6 +15,10 @@ This can be done interactively through your IDE. For example, in PyCharm:
 
 You can then add a package to the current environment for the specified interpreter using the "+" button at the bottom of the dialog.
 
+```
+pip install pytest
+```
+
 To add `pytest`, type `pytest` into the search bar and click **Install**.
 
 ### Note on Floating Point Numbers in Tests
