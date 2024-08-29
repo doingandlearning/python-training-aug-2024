@@ -84,6 +84,10 @@ This course offers a deep dive into Python programming, covering both fundamenta
 - Creating subclasses and extending base class functionality
 - Method overriding and the use of `super()`
 
+```python
+class TemperatureReading(Temperature, Reading):
+```
+
 ### 11. Modules
 
 - Organizing code into modules
